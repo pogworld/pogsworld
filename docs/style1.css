@@ -9,7 +9,7 @@ border-radius: 2px;
 background-color: #00ff00;
 transition: all 0.65s;
 text-align: center;  
-width: 300px;
+width: 500px;
 border-style: solid;
 }
 button span {
@@ -87,7 +87,7 @@ color: white;
 /*start link css*/
 a{
 display:block;
-width:300px;
+width:500px;
 font-family: "Courier New", Courier, monospace;  
 font-weight: bold;
 outline: none;
@@ -99,28 +99,12 @@ transition: all 0.65s;
 text-align: center;  
 border-style: solid;
 }
-a span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.65s;
-}
-a span:after{
-content: '\005F';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  transition: 0.65s;
-}
-a:hover span:after {
-opacity: 1;
-}
 a:hover{
 border-radius: 5px 25px;
 opacity: 1;
 right: 10px;
 }
-a:focus{
+a:active{
 background-color: #009000;
 border-color: #00ff00;
 color: white;
